@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Stronka dla starej </title>
+	<link rel="stylesheet" href="skarb.css">
+	<script>
+		function liczenie()
+		{
+			var szt=document.getElementById("ilosc").value;
+			var wyb=document.getElementById("wybor").value;
+				
+			if (wyb=="o1")
+			{
+			document.getElementById("wynik").style="color:red;"
+			document.getElementById("wynik").innerHTML="kocham cie NAJBARDZIEJ!";
+			}
+			else if (wyb=="o2")
+			{
+			document.getElementById("wynik").style="color:red;"
+			document.getElementById("wynik").innerHTML="Skarbie zawsze kocham cie NAJBARDZIEJ!";
+			}
+			else if (wyb=="o3")
+			{
+			document.getElementById("wynik").style="color:red;"
+			document.getElementById("wynik").innerHTML="Zrozum kocham cie NAJBARDZIEJ!";
+		}
+		}
+	</script>		
+</head>
+<body>
+	<header>
+	<div id="jeden" class="gorne">
+	<img src="stara1.jpg" alt="stara1" width="250" height="350"/>
+	</div>
+	<div id="banner">
+	<h1>Kocham cie najbardziej na świecie</h1>
+	</div>
+	<div id="dwa" class="gorne">
+	<img src="stara2.jpg" alt="stara2" width="250" height="350"/>
+	</div>
+	
+	</header>
+	<div id="banner2">
+	<h1>Jesteś dla mnie najważniejsza</h1>
+	</div>
+	<div class="skryp">
+	<h2>Sprawdź kiedy i o której godzinie kocham cie najbardziej:</h2>
+			<input type="number"  id="ilosc"></input>
+			<select id="wybor">
+				<option value="o1"><h3>Rano</h3></option>
+				<option value="o2"><h3>W dzień</h3></option>
+				<option value="o3"><h3>W nocy</h3></option>
+			</select><br>
+			<br><br>
+			<input type="button" value="SPRAWDŹ" onclick="liczenie()" id="przycisk"></input>
+			<p id="wynik">o tutaj odpowiedź:</p>
+	</div>
+	<h1>KILKA NASZYCH ZDJĘC</h1>
+	<div id="zdjecia1">
+		<img src="stara5.jpg" alt="stara2" width="200" height="250"/>
+	</div>
+	<div id="zdjecia2">
+		<img src="stara6.jpeg" alt="stara2" width="200" height="250"/>
+	</div>
+	<div id="zdjecia3">
+		<img src="stara7.jpg" alt="stara2" width="200" height="250"/>
+	</div>
+	<div id="zdjecia4">
+		<img src="stara8.jpg" alt="stara2" width="200" height="250"/>
+	</div>
+	
+
+</body>
+</html>

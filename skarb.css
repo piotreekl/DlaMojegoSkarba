@@ -1,0 +1,77 @@
+body
+{
+	background-color: RGB(122, 186, 204);
+	color: RGB(6, 73, 92);
+}
+#jeden
+{
+	float: left;
+	width: 13%;
+}
+#dwa
+{
+	float: left;
+	width: 10%;
+}
+#banner
+{
+	background-color: RGB(129, 169, 184);
+	text-align: center;
+	height: 80px;
+	padding: 10px;
+	font-family: Gotham Rounded, sans-serif;
+	width: 74%;
+	float: left;
+}
+#banner2
+{
+	height: 80px;
+	font-family: Gotham Rounded, sans-serif;
+	background-color: RGB(129, 169, 184);
+	text-align: center;
+	clear: both;
+}
+.skryp
+{
+	text-align: left;
+	font-family: Consolas;
+	text-align: center;
+	
+}
+#przycisk
+{
+	background-color: RGB(6, 93, 120);
+	padding: 10px;
+}
+#zdjecia1
+{
+	float: left;
+	width: 29%;
+	
+}
+#zdjecia2
+{
+	float: left;
+	width: 30%;
+	
+}
+#zdjecia3
+{
+	float: left;
+	width: 30%;
+	
+}
+#zdjecia4
+{
+	float: left;
+	
+	
+}
+h1
+{
+	text-align: center;
+}
+footer
+{
+	
+}
