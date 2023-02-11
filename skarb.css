@@ -7,11 +7,15 @@ body
 {
 	float: left;
 	width: 13%;
+	margin-left: auto;
+	margin-right: auto;
 }
 #dwa
 {
 	float: left;
 	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
 }
 #banner
 {
@@ -22,6 +26,8 @@ body
 	font-family: Gotham Rounded, sans-serif;
 	width: 74%;
 	float: left;
+	margin-left: auto;
+	margin-right: auto;
 }
 #banner2
 {
@@ -30,6 +36,8 @@ body
 	background-color: RGB(129, 169, 184);
 	text-align: center;
 	clear: both;
+	margin-left: auto;
+	margin-right: auto;
 }
 .skryp
 {
@@ -47,23 +55,31 @@ body
 {
 	float: left;
 	width: 29%;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 #zdjecia2
 {
 	float: left;
 	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 #zdjecia3
 {
 	float: left;
 	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 #zdjecia4
 {
 	float: left;
+	margin-left: auto;
+	margin-right: auto;
 	
 	
 }
@@ -71,7 +87,4 @@ h1
 {
 	text-align: center;
 }
-footer
-{
-	
-}
+@media only screen and (max-width: 414px)
